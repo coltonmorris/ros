@@ -10,7 +10,8 @@ Running ROS across [multiple machines](http://wiki.ros.org/ROS/Tutorials/Multipl
 `gcloud config config-helper --format=json | jq .credential.access_token`
 
 ## Scale Down Clusters
-Remember to scale down clusters when not actively developing :)   
+Remember to scale down or delete clusters when not actively developing :)   
++ `gcloud container clusters delete cluster-1 --zone us-central1-a`
 + `gcloud container clusters resize cluster-1 --zone us-central1-a --size=0`
 
 
