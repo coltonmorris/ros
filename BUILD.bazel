@@ -1,1 +1,1 @@
-# empty yo
+package(default_visibility = ["//visibility:public"])
