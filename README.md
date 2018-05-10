@@ -15,6 +15,7 @@ Remember to scale down clusters when not actively developing :)
 
 
 ## TODO
++ Experiment with scaling up and down `deployments`
 + Use a **Helm Chart** rather than rudimentary bazel aggregator
 + Look into using minikube for local development and GCP for collaborative
 
