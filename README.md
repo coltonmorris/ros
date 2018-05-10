@@ -1,4 +1,5 @@
 # Ros Experimentation
+Running ROS across [multiple machines](http://wiki.ros.org/ROS/Tutorials/MultipleMachines) in **Kubernetes**
 
 
 ## Startup K8s
